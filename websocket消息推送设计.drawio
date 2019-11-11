@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-11T08:45:31.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36" etag="-sS371xNWG8s_1zL7G_1" version="12.2.3" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-11T08:46:35.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36" etag="ahGMCLMgGvSjdbaEkN5A" version="12.2.3" type="github" pages="3">
   <diagram id="HFHcIjjgv7-jXZRC84by" name="前端注册监听">
     <mxGraphModel dx="1995" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,9 +132,6 @@
         <mxCell id="jQOL4WjRipKyU6d3ORTy-12" value="本地缓存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
           <mxGeometry x="480" y="80" width="100" height="990" as="geometry"/>
         </mxCell>
-        <mxCell id="aulXTinne5Bw-lDd8tkT-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="jQOL4WjRipKyU6d3ORTy-12">
-          <mxGeometry x="45" y="350" width="10" height="30" as="geometry"/>
-        </mxCell>
         <mxCell id="jQOL4WjRipKyU6d3ORTy-14" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
           <mxGeometry x="640" y="80" width="100" height="990" as="geometry"/>
         </mxCell>
@@ -149,8 +146,8 @@
         </mxCell>
         <mxCell id="aulXTinne5Bw-lDd8tkT-4" value="10.返回websocket连接" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="BXapZyo4GHoVeNJeDpWq-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="530" y="460" as="sourcePoint"/>
-            <mxPoint x="355" y="460" as="targetPoint"/>
+            <mxPoint x="525" y="479.5" as="sourcePoint"/>
+            <mxPoint x="355" y="479.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="aulXTinne5Bw-lDd8tkT-6" value="13.若能从缓存中获取websocket连接,则将消息推送至订阅了&quot;/user/queue/newMsg&quot;的客户端" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.5;entryY=0.139;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="BXapZyo4GHoVeNJeDpWq-1">
@@ -179,8 +176,8 @@
         </mxCell>
         <mxCell id="aulXTinne5Bw-lDd8tkT-2" value="9.根据userId获取&lt;br&gt;缓存的websocket连接" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="BXapZyo4GHoVeNJeDpWq-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="355" y="434" as="sourcePoint"/>
-            <mxPoint x="525" y="434" as="targetPoint"/>
+            <mxPoint x="355" y="449.5" as="sourcePoint"/>
+            <mxPoint x="525" y="449.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="lCIXG7HvL4Fnse7mMCRd-1" value="5.发布&quot;wsToClient&quot;&lt;br&gt;主题消息" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="BXapZyo4GHoVeNJeDpWq-1">
@@ -254,6 +251,9 @@
             <mxPoint x="851" y="290" as="sourcePoint"/>
             <mxPoint x="356" y="290" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aulXTinne5Bw-lDd8tkT-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
+          <mxGeometry x="525" y="450" width="10" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

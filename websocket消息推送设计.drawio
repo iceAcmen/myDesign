@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-11T08:02:55.713Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36" etag="NnMMbZjOw-7XEjjtCfkJ" version="12.2.3" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-11T08:03:36.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36" etag="TD3k27uopJOGH4nfZxXY" version="12.2.3" type="github" pages="3">
   <diagram id="HFHcIjjgv7-jXZRC84by" name="前端注册监听">
     <mxGraphModel dx="1995" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -272,7 +272,7 @@
             <mxPoint x="365" y="170" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QLGmNhzeTBbXR8KVOTVe-2" value="4.连接成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.3;exitY=0.846;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="PJZTxWNfsdm1aRaPUjdb-1" source="QLGmNhzeTBbXR8KVOTVe-7">
+        <mxCell id="QLGmNhzeTBbXR8KVOTVe-2" value="4.操作成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.3;exitY=0.846;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="PJZTxWNfsdm1aRaPUjdb-1" source="QLGmNhzeTBbXR8KVOTVe-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="357" y="270" as="sourcePoint"/>
             <mxPoint x="197" y="270" as="targetPoint"/>

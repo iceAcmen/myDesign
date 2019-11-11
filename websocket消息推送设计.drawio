@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-11T03:22:13.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36" etag="JloV4bhwsny3mrpzOoZN" version="12.2.3" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-11T03:23:20.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36" etag="nOBY1OPtwZ_8ucUzJhYy" version="12.2.3" type="github" pages="2">
   <diagram id="HFHcIjjgv7-jXZRC84by" name="前端注册监听">
     <mxGraphModel dx="1168" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,11 +19,8 @@
             <mxPoint x="60" y="270" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l-wgfNWtRh-xiYLWzISt-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="l-wgfNWtRh-xiYLWzISt-3">
-          <mxGeometry x="45" y="80" width="10" height="42" as="geometry"/>
-        </mxCell>
         <mxCell id="l-wgfNWtRh-xiYLWzISt-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="l-wgfNWtRh-xiYLWzISt-3">
-          <mxGeometry x="45" y="160" width="10" height="120" as="geometry"/>
+          <mxGeometry x="45" y="80" width="10" height="200" as="geometry"/>
         </mxCell>
         <mxCell id="l-wgfNWtRh-xiYLWzISt-4" value="浏览器缓存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="80" width="100" height="360" as="geometry"/>
@@ -73,9 +70,9 @@
             <mxPoint x="630" y="250" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="l-wgfNWtRh-xiYLWzISt-10" value="1.获取会话标识" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.2;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l-wgfNWtRh-xiYLWzISt-25" target="l-wgfNWtRh-xiYLWzISt-11">
+        <mxCell id="l-wgfNWtRh-xiYLWzISt-10" value="1.获取会话标识" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.2;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="l-wgfNWtRh-xiYLWzISt-11">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="70" y="162" as="sourcePoint"/>
+            <mxPoint x="75" y="162.25" as="sourcePoint"/>
             <mxPoint x="200" y="159" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
@@ -102,11 +99,17 @@
         <mxCell id="jQOL4WjRipKyU6d3ORTy-7" value="服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
           <mxGeometry x="320" y="80" width="100" height="750" as="geometry"/>
         </mxCell>
+        <mxCell id="HaIgSC8CM5VFxUxpdTRj-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="jQOL4WjRipKyU6d3ORTy-7">
+          <mxGeometry x="45" y="100" width="10" height="80" as="geometry"/>
+        </mxCell>
         <mxCell id="jQOL4WjRipKyU6d3ORTy-12" value="缓存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
           <mxGeometry x="480" y="80" width="100" height="750" as="geometry"/>
         </mxCell>
         <mxCell id="jQOL4WjRipKyU6d3ORTy-14" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
           <mxGeometry x="640" y="80" width="100" height="750" as="geometry"/>
+        </mxCell>
+        <mxCell id="HaIgSC8CM5VFxUxpdTRj-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="jQOL4WjRipKyU6d3ORTy-14">
+          <mxGeometry x="45" y="100" width="10" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

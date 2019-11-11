@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-11T08:46:35.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36" etag="ahGMCLMgGvSjdbaEkN5A" version="12.2.3" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-11-11T08:48:19.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36" etag="14XjSQbBSHie96J-PnFL" version="12.2.3" type="github" pages="3">
   <diagram id="HFHcIjjgv7-jXZRC84by" name="前端注册监听">
     <mxGraphModel dx="1995" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,13 +112,13 @@
         <mxCell id="BXapZyo4GHoVeNJeDpWq-0"/>
         <mxCell id="BXapZyo4GHoVeNJeDpWq-1" parent="BXapZyo4GHoVeNJeDpWq-0"/>
         <mxCell id="jQOL4WjRipKyU6d3ORTy-0" value="前端控制台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
-          <mxGeometry x="990" y="80" width="100" height="990" as="geometry"/>
+          <mxGeometry x="990" y="80" width="100" height="680" as="geometry"/>
         </mxCell>
         <mxCell id="aulXTinne5Bw-lDd8tkT-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="jQOL4WjRipKyU6d3ORTy-0">
           <mxGeometry x="45" y="520" width="10" height="36" as="geometry"/>
         </mxCell>
         <mxCell id="jQOL4WjRipKyU6d3ORTy-7" value="服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
-          <mxGeometry x="-10" y="80" width="100" height="990" as="geometry"/>
+          <mxGeometry x="-10" y="80" width="100" height="680" as="geometry"/>
         </mxCell>
         <mxCell id="HaIgSC8CM5VFxUxpdTRj-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="jQOL4WjRipKyU6d3ORTy-7">
           <mxGeometry x="45" y="100" width="10" height="260" as="geometry"/>
@@ -130,10 +130,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jQOL4WjRipKyU6d3ORTy-12" value="本地缓存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
-          <mxGeometry x="480" y="80" width="100" height="990" as="geometry"/>
+          <mxGeometry x="480" y="80" width="100" height="680" as="geometry"/>
         </mxCell>
         <mxCell id="jQOL4WjRipKyU6d3ORTy-14" value="数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
-          <mxGeometry x="640" y="80" width="100" height="990" as="geometry"/>
+          <mxGeometry x="640" y="80" width="100" height="680" as="geometry"/>
         </mxCell>
         <mxCell id="HaIgSC8CM5VFxUxpdTRj-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="jQOL4WjRipKyU6d3ORTy-14">
           <mxGeometry x="45" y="100" width="10" height="40" as="geometry"/>
@@ -163,13 +163,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gLkf99tpPZWJ8Q85RYgd-0" value="消息中间件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
-          <mxGeometry x="140" y="80" width="100" height="990" as="geometry"/>
+          <mxGeometry x="140" y="80" width="100" height="680" as="geometry"/>
         </mxCell>
         <mxCell id="lCIXG7HvL4Fnse7mMCRd-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="gLkf99tpPZWJ8Q85RYgd-0">
           <mxGeometry x="45" y="280" width="10" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="gLkf99tpPZWJ8Q85RYgd-1" value="订阅&quot;wsToClient&quot;主题消息的服务节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
-          <mxGeometry x="300" y="80" width="100" height="990" as="geometry"/>
+          <mxGeometry x="300" y="80" width="100" height="680" as="geometry"/>
         </mxCell>
         <mxCell id="lCIXG7HvL4Fnse7mMCRd-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="gLkf99tpPZWJ8Q85RYgd-1">
           <mxGeometry x="45" y="320" width="10" height="330" as="geometry"/>
@@ -193,7 +193,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lCIXG7HvL4Fnse7mMCRd-8" value="缓存中间件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="BXapZyo4GHoVeNJeDpWq-1">
-          <mxGeometry x="810" y="80" width="100" height="990" as="geometry"/>
+          <mxGeometry x="810" y="80" width="100" height="680" as="geometry"/>
         </mxCell>
         <mxCell id="lCIXG7HvL4Fnse7mMCRd-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="lCIXG7HvL4Fnse7mMCRd-8">
           <mxGeometry x="44" y="180" width="10" height="30" as="geometry"/>

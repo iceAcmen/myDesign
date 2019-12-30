@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-30T03:42:42.459Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="OL3MD6cuu1rjBfHtyDCJ" version="12.4.7" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-30T03:44:52.543Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="DCKtHgn7tYI3A5POCoju" version="12.4.7" type="github" pages="2">
   <diagram id="ni-oc0N09if67SNXSGwE" name="聚簇索引">
     <mxGraphModel dx="2009" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1253,7 +1253,10 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="vpYMZTJwdBlBX_hFkLkb-23" value="为了节省空间，二级索引的叶子节点只存放索引列 +&amp;nbsp;主键列，所以使用二级索引找到主键后还需要使用聚簇索引找到主键对应的用户数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF0000;fontStyle=1" vertex="1" parent="IDNI-QEbJEvQFArDJO-S-1">
-          <mxGeometry x="43" y="646" width="740" height="20" as="geometry"/>
+          <mxGeometry x="43" y="700" width="740" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="78KZj1DAo4u6x0tRAus4-0" value="由于二级索引不一定是唯一的，可能存在重复，所以二级索引的目录项记录中存放的是“索引列+主键列&lt;br&gt;”的组合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FF0000;fontStyle=1" vertex="1" parent="IDNI-QEbJEvQFArDJO-S-1">
+          <mxGeometry x="143" y="665" width="560" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

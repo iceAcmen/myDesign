@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-30T06:45:19.366Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="ZBmrnfoZ6WDHA7rSn8Sk" version="12.4.7" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-12-30T06:45:37.236Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="ZCEtJ7eCfHBxtmp93IZs" version="12.4.7" type="github" pages="2">
   <diagram id="ni-oc0N09if67SNXSGwE" name="聚簇索引">
     <mxGraphModel dx="2009" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,7 +211,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="375" y="210"/>
-              <mxPoint x="180" y="210"/>
+              <mxPoint x="90" y="210"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -219,7 +219,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="425" y="210"/>
-              <mxPoint x="670" y="210"/>
+              <mxPoint x="755" y="210"/>
             </Array>
           </mxGeometry>
         </mxCell>

@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-30T09:46:45.450Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="EegfcO04W_B4lhD1UsAi" version="12.4.7" type="github">
+<mxfile host="www.draw.io" modified="2019-12-30T09:48:28.051Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="cgMxMXcUPG7ozkIEsKWF" version="12.4.7" type="github">
   <diagram id="Pk6szY6X2AI3ksfUnbjT" name="第 1 页">
     <mxGraphModel dx="1182" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,8 +58,8 @@
             <mxPoint x="560" y="150" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-24" value="1.链式执行，同步还是异步？同步可以按照上述设计，异步则需要使用数据库获缓存中间件记录链式任务执行进度&lt;br&gt;当进度有更新，则通知DeployContext更新上下文，然后继续调用当前链式任务下个节点的部署任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="230" y="375" width="610" height="30" as="geometry"/>
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-24" value="1.异步链式执行，需要使用数据库获缓存中间件记录链式任务执行进度&lt;br&gt;当进度有更新，则通知DeployContext更新上下文，然后继续调用当前链式任务下个节点的部署任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="265" y="375" width="540" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="HMCwOFbC17oRcmYb5OWI-25" value="DeployContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="10" y="370" width="210" height="100" as="geometry"/>

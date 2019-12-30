@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-30T09:03:57.764Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="SdXOigQYUuFdFY3I3Us_" version="12.4.7" type="github">
+<mxfile host="www.draw.io" modified="2019-12-30T09:14:50.856Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="LLY8rmJsUfas7DBD7n8n" version="12.4.7" type="github">
   <diagram id="Pk6szY6X2AI3ksfUnbjT" name="第 1 页">
     <mxGraphModel dx="1182" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,6 +57,21 @@
             <mxPoint x="400" y="150" as="sourcePoint"/>
             <mxPoint x="560" y="150" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-24" value="1.链式执行，同步还是异步？同步可以按照上述设计，异步则需要使用数据库获缓存中间件记录链式任务执行进度&lt;br&gt;当进度有更新，则通知DeployContext更新上下文，然后继续调用当前链式任务下个节点的部署任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="375" width="610" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-25" value="DeployContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="370" width="210" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-26" value="- context: Map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HMCwOFbC17oRcmYb5OWI-25">
+          <mxGeometry y="26" width="210" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="HMCwOFbC17oRcmYb5OWI-25">
+          <mxGeometry y="52" width="210" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-28" value="- loadContext(): Void&#xa;+ getContext(): Map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HMCwOFbC17oRcmYb5OWI-25">
+          <mxGeometry y="60" width="210" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

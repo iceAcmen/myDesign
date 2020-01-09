@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-09T00:49:02.240Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="ZLp5D_wPntbY5FohM1pZ" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-09T00:57:47.013Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="4SvVkHfysl7WelrYL_Dk" version="12.4.9" type="github">
   <diagram id="Pk6szY6X2AI3ksfUnbjT" name="第 1 页">
-    <mxGraphModel dx="1182" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -43,8 +43,8 @@
         </mxCell>
         <mxCell id="HMCwOFbC17oRcmYb5OWI-20" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="HMCwOFbC17oRcmYb5OWI-19" target="HMCwOFbC17oRcmYb5OWI-18" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="610" y="150" as="sourcePoint"/>
-            <mxPoint x="770" y="150" as="targetPoint"/>
+            <mxPoint x="610" y="210" as="sourcePoint"/>
+            <mxPoint x="770" y="210" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="HMCwOFbC17oRcmYb5OWI-22" value="Implement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontColor=#000000;" parent="HMCwOFbC17oRcmYb5OWI-20" vertex="1" connectable="0">
@@ -72,6 +72,15 @@
         </mxCell>
         <mxCell id="HMCwOFbC17oRcmYb5OWI-28" value="- load(): Void&#xa;+ getContext(): Map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-25" vertex="1">
           <mxGeometry y="98" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;DeployStatusEnum&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;DEPLOYING =&amp;nbsp;正在部署&lt;br&gt;RETYRING =&amp;nbsp;正在重试&lt;br&gt;SUCCESS =&amp;nbsp;成功&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;FAILED =&amp;nbsp;失败&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="15" width="160" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-4" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PLOxVc5f-wypk1EuSOZC-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint y="60" as="sourcePoint"/>
+            <mxPoint x="-80" y="70" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

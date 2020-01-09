@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-09T00:57:47.013Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="4SvVkHfysl7WelrYL_Dk" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-09T01:11:03.163Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="N3jKHVqqE_Yjwr2Gr7zO" version="12.4.9" type="github">
   <diagram id="Pk6szY6X2AI3ksfUnbjT" name="第 1 页">
-    <mxGraphModel dx="2009" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -62,7 +62,9 @@
           <mxGeometry x="270" y="405" width="540" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="HMCwOFbC17oRcmYb5OWI-25" value="DeployContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="10" y="370" width="230" height="138" as="geometry"/>
+          <mxGeometry x="10" y="370" width="230" height="138" as="geometry">
+            <mxRectangle x="10" y="370" width="120" height="26" as="alternateBounds"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="HMCwOFbC17oRcmYb5OWI-26" value="- context: Map&#xa;- progress: Integer&#xa;- deployChain: IDeployComponentChain" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-25" vertex="1">
           <mxGeometry y="26" width="230" height="64" as="geometry"/>

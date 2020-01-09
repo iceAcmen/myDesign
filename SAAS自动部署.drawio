@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-09T04:01:20.550Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="k_7nz9kJodqGzGX3uZsS" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-09T04:04:31.959Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="AaFzUH_SRA1c7awnmcuu" version="12.4.9" type="github">
   <diagram id="Pk6szY6X2AI3ksfUnbjT" name="第 1 页">
     <mxGraphModel dx="2009" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
         <mxCell id="PLOxVc5f-wypk1EuSOZC-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-5">
           <mxGeometry y="60" width="340" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="PLOxVc5f-wypk1EuSOZC-8" value="+ put(DeployChainName, DeployTask): void&#xa;+ get(DeployChainName): DeployTask" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-5">
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-8" value="+ put(DeployChainNameEnum, DeployTask): void&#xa;+ get(DeployChainNameEnum): DeployTask" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-5">
           <mxGeometry y="68" width="340" height="42" as="geometry"/>
         </mxCell>
         <mxCell id="PLOxVc5f-wypk1EuSOZC-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;DeployChainNameEnum&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;SRM =&amp;nbsp;采购云&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;XXX = XXX云&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;XXX = XXX云&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">

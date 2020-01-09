@@ -1,22 +1,22 @@
-<mxfile host="www.draw.io" modified="2020-01-09T04:04:47.284Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="FAf8r2iz-YICNKTJlaXq" version="12.4.9" type="github">
+<mxfile host="www.draw.io" modified="2020-01-09T05:58:45.173Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="jcEKVtRntiUUaqucvMdI" version="12.4.9" type="github">
   <diagram id="Pk6szY6X2AI3ksfUnbjT" name="第 1 页">
     <mxGraphModel dx="2009" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;AbstractDeployComponent&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# status: DeployStatusEnum&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ deploy(): Boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;throws DeployException&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getStatus(): DeployStatusEnum&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;AbstractDeployComponent&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# status: DeployStatusEnum&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ deploy(Map): Boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;throws DeployException&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getStatus(): DeployStatusEnum&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="8" width="220" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="HMCwOFbC17oRcmYb5OWI-4" value="VmDeployComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-5" y="215" width="210" height="110" as="geometry"/>
         </mxCell>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-5" value="- result: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-4" vertex="1">
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-5" value="# status: DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-4" vertex="1">
           <mxGeometry y="26" width="210" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="HMCwOFbC17oRcmYb5OWI-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-4" vertex="1">
           <mxGeometry y="52" width="210" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-7" value="+ deploy(): Boolean&#xa;                   throws DeployException&#xa;+ getResult(): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-4" vertex="1">
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-7" value="+ deploy(Map): Boolean&#xa;                   throws DeployException&#xa;+ getStatus(): DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-4" vertex="1">
           <mxGeometry y="60" width="210" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="HMCwOFbC17oRcmYb5OWI-12" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HMCwOFbC17oRcmYb5OWI-4" target="HMCwOFbC17oRcmYb5OWI-1" edge="1">
@@ -32,26 +32,12 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-18" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/div&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;IDeployTaskConfiguration&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ build(): DeployTask&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throws DuplicateDeployTaskDefinitionException&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="25.5" width="320" height="85" as="geometry"/>
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-19" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DeployTaskCreator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create(DeployTaskNameEnum,&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Class&amp;lt;AbstractDeployComponent&amp;gt;[]): DeployTask&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="50" width="330" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-19" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SrmDeployTaskConfiguration&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ build(): DeployTask&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throws DuplicateDeployTaskDefinitionException&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="190" width="320" height="70" as="geometry"/>
-        </mxCell>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-20" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;fontColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="HMCwOFbC17oRcmYb5OWI-19" target="HMCwOFbC17oRcmYb5OWI-18" edge="1">
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-23" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="HMCwOFbC17oRcmYb5OWI-19" target="HMCwOFbC17oRcmYb5OWI-26" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="630" y="235" as="sourcePoint"/>
-            <mxPoint x="790" y="235" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-22" value="Implement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontColor=#000000;" parent="HMCwOFbC17oRcmYb5OWI-20" vertex="1" connectable="0">
-          <mxGeometry x="-0.2216" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-23" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="HMCwOFbC17oRcmYb5OWI-18" target="HMCwOFbC17oRcmYb5OWI-26" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="400" y="175" as="sourcePoint"/>
+            <mxPoint x="610" y="68" as="sourcePoint"/>
             <mxPoint x="500" y="85" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
@@ -60,13 +46,13 @@
             <mxRectangle x="10" y="370" width="120" height="26" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-26" value="- name: DeployChainNameEnum&#xa;- context: Map&#xa;- deployChain: List&lt;AbstractDeployComponent&gt;&#xa;- progress: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-25" vertex="1">
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-26" value="- name: DeployTaskNameEnum&#xa;- context: Map&#xa;- deployChain: List&lt;AbstractDeployComponent&gt;&#xa;- progress: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-25" vertex="1">
           <mxGeometry y="26" width="270" height="64" as="geometry"/>
         </mxCell>
         <mxCell id="HMCwOFbC17oRcmYb5OWI-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-25" vertex="1">
           <mxGeometry y="90" width="270" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="HMCwOFbC17oRcmYb5OWI-28" value="+ start(): Boolean&#xa;+ getContext(): Map&#xa;+ getDeployChain(): IDeployComponentChain&#xa;+ getProgress(): Integer&#xa;+ getName(): DeployChainNameEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-25" vertex="1">
+        <mxCell id="HMCwOFbC17oRcmYb5OWI-28" value="+ start(): Boolean&#xa;+ getContext(): Map&#xa;+ getDeployChain(): IDeployComponentChain&#xa;+ getProgress(): Integer&#xa;+ getName(): DeployTaskNameEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HMCwOFbC17oRcmYb5OWI-25" vertex="1">
           <mxGeometry y="98" width="270" height="82" as="geometry"/>
         </mxCell>
         <mxCell id="PLOxVc5f-wypk1EuSOZC-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;DeployStatusEnum&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;DEPLOYING =&amp;nbsp;正在部署&lt;br&gt;RETYRING =&amp;nbsp;正在重试&lt;br&gt;SUCCESS =&amp;nbsp;成功&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;FAILED =&amp;nbsp;失败&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
@@ -89,10 +75,10 @@
         <mxCell id="PLOxVc5f-wypk1EuSOZC-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-5">
           <mxGeometry y="60" width="340" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="PLOxVc5f-wypk1EuSOZC-8" value="+ put(DeployChainNameEnum, DeployTask): void&#xa;+ get(DeployChainNameEnum): DeployTask" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-5">
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-8" value="+ put(DeployTaskNameEnum, DeployTask): void&#xa;+ get(DeployTaskNameEnum): DeployTask" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-5">
           <mxGeometry y="68" width="340" height="42" as="geometry"/>
         </mxCell>
-        <mxCell id="PLOxVc5f-wypk1EuSOZC-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;DeployChainNameEnum&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;SRM =&amp;nbsp;采购云&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;XXX = XXX云&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;XXX = XXX云&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;DeployTaskNameEnum&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;SRM =&amp;nbsp;采购云&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;XXX = XXX云&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;XXX = XXX云&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="305" y="260" width="160" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="PLOxVc5f-wypk1EuSOZC-12" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" target="PLOxVc5f-wypk1EuSOZC-9">
@@ -106,6 +92,66 @@
             <mxPoint x="560" y="95" as="sourcePoint"/>
             <mxPoint x="510" y="95" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-25" value="MySqlDeployComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="215" width="210" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-26" value="# status: DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-25">
+          <mxGeometry y="26" width="210" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-25">
+          <mxGeometry y="52" width="210" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-28" value="+ deploy(Map): Boolean&#xa;                   throws DeployException&#xa;+ getStatus(): DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-25">
+          <mxGeometry y="60" width="210" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-29" value="RedisDeployComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="215" width="210" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-30" value="# status: DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-29">
+          <mxGeometry y="26" width="210" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-29">
+          <mxGeometry y="52" width="210" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-32" value="+ deploy(Map): Boolean&#xa;                   throws DeployException&#xa;+ getStatus(): DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-29">
+          <mxGeometry y="60" width="210" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-33" value="ZooKeeperDeployComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="360" width="210" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-34" value="# status: DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-33">
+          <mxGeometry y="26" width="210" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-33">
+          <mxGeometry y="52" width="210" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-36" value="+ deploy(Map): Boolean&#xa;                   throws DeployException&#xa;+ getStatus(): DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-33">
+          <mxGeometry y="60" width="210" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-37" value="FastDFSDeployComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="360" width="210" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-38" value="# status: DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-37">
+          <mxGeometry y="26" width="210" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-37">
+          <mxGeometry y="52" width="210" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-40" value="+ deploy(Map): Boolean&#xa;                   throws DeployException&#xa;+ getStatus(): DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-37">
+          <mxGeometry y="60" width="210" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-41" value="SrmAppDeployComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry y="360" width="210" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-42" value="# status: DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-41">
+          <mxGeometry y="26" width="210" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-41">
+          <mxGeometry y="52" width="210" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="PLOxVc5f-wypk1EuSOZC-44" value="+ deploy(Map): Boolean&#xa;                   throws DeployException&#xa;+ getStatus(): DeployStatusEnum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PLOxVc5f-wypk1EuSOZC-41">
+          <mxGeometry y="60" width="210" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

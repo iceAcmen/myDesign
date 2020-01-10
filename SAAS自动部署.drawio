@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-10T06:13:03.310Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="T4PJuCOwf_pj2Z9shvOx" version="12.5.1" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-10T06:17:21.721Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="MJwsYjPDesd8RZm4Cinz" version="12.5.1" type="github" pages="3">
   <diagram id="Pk6szY6X2AI3ksfUnbjT" name="类图">
     <mxGraphModel dx="2009" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -253,13 +253,13 @@
         <mxCell id="pQtoFO1pI-V7l3LSgn5B-0"/>
         <mxCell id="pQtoFO1pI-V7l3LSgn5B-1" parent="pQtoFO1pI-V7l3LSgn5B-0"/>
         <mxCell id="pQtoFO1pI-V7l3LSgn5B-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;instance_deploy_task&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;seq：任务序列号&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;name：任务名称&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;progress：任务进度&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;type：任务类型&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="pQtoFO1pI-V7l3LSgn5B-1" vertex="1">
-          <mxGeometry x="20" y="230" width="180" height="130" as="geometry"/>
+          <mxGeometry x="20" y="290" width="180" height="130" as="geometry"/>
         </mxCell>
         <mxCell id="pQtoFO1pI-V7l3LSgn5B-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;mysql_deploy_task&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;task_id：任务id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;/td&gt;&lt;td&gt;vm_resource_id：虚拟机资源表id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;status：部署状态&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;retry_times：重试次数&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="pQtoFO1pI-V7l3LSgn5B-1" vertex="1">
           <mxGeometry x="280" y="40" width="210" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="pQtoFO1pI-V7l3LSgn5B-5" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;vm_resource&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;task_id：任务id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;ip：虚拟机ip地址&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;username：用户名&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;passwd：密码&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;server_type：部署服务类型&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="pQtoFO1pI-V7l3LSgn5B-1" vertex="1">
-          <mxGeometry x="570" y="220" width="190" height="130" as="geometry"/>
+          <mxGeometry x="570" y="290" width="190" height="130" as="geometry"/>
         </mxCell>
         <mxCell id="-F4YEXQhyaqVo6bZaaTO-0" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;redis_deploy_task&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;/td&gt;&lt;td&gt;task_id：任务id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;/td&gt;&lt;td&gt;vm_resource_id：虚拟机资源表id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;status：部署状态&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;retry_times：重试次数&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="pQtoFO1pI-V7l3LSgn5B-1" vertex="1">
           <mxGeometry x="280" y="300" width="210" height="110" as="geometry"/>
@@ -268,7 +268,7 @@
           <mxGeometry x="280" y="170" width="206" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="-F4YEXQhyaqVo6bZaaTO-2" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;fastdfs_deploy_task&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;/td&gt;&lt;td&gt;task_id：任务id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;/td&gt;&lt;td&gt;vm_resource_id：虚拟机资源表id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;status：部署状态&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;retry_times：重试次数&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="pQtoFO1pI-V7l3LSgn5B-1" vertex="1">
-          <mxGeometry x="277" y="450" width="212" height="110" as="geometry"/>
+          <mxGeometry x="280" y="440" width="212" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="-F4YEXQhyaqVo6bZaaTO-5" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="pQtoFO1pI-V7l3LSgn5B-1" source="pQtoFO1pI-V7l3LSgn5B-2" target="pQtoFO1pI-V7l3LSgn5B-4" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -315,6 +315,21 @@
         <mxCell id="-F4YEXQhyaqVo6bZaaTO-13" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;" parent="pQtoFO1pI-V7l3LSgn5B-1" source="-F4YEXQhyaqVo6bZaaTO-2" target="pQtoFO1pI-V7l3LSgn5B-5" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="500" y="360" as="sourcePoint"/>
+            <mxPoint x="580" y="295" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tz9bj0k5LXRqG2s6ySUi-0" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;srm_deploy_task&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;/td&gt;&lt;td&gt;task_id：任务id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;br&gt;&lt;/td&gt;&lt;td&gt;vm_resource_id：虚拟机资源表id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;status：部署状态&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;retry_times：重试次数&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="pQtoFO1pI-V7l3LSgn5B-1">
+          <mxGeometry x="279" y="570" width="212" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="Tz9bj0k5LXRqG2s6ySUi-1" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;" edge="1" parent="pQtoFO1pI-V7l3LSgn5B-1" source="pQtoFO1pI-V7l3LSgn5B-2" target="Tz9bj0k5LXRqG2s6ySUi-0">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="210" y="305" as="sourcePoint"/>
+            <mxPoint x="290" y="505" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tz9bj0k5LXRqG2s6ySUi-2" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;" edge="1" parent="pQtoFO1pI-V7l3LSgn5B-1" source="Tz9bj0k5LXRqG2s6ySUi-0" target="pQtoFO1pI-V7l3LSgn5B-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="502" y="505" as="sourcePoint"/>
             <mxPoint x="580" y="295" as="targetPoint"/>
           </mxGeometry>
         </mxCell>

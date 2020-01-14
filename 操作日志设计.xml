@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-14T13:40:26.915Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" version="12.5.1" etag="Q3xCOK_j-yb5LtpxPYvf" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-01-14T13:49:29.887Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" version="12.5.1" etag="w88aJCJnbNibfLoJr3rI" type="github" pages="2">
   <diagram id="5c005ec4-c1c5-ad0a-3c20-ffbe04f33739" name="数据库设计">
     <mxGraphModel dx="1422" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -96,11 +96,11 @@
       <root>
         <mxCell id="UB69o47onC5NVdZMgcXt-0"/>
         <mxCell id="UB69o47onC5NVdZMgcXt-1" parent="UB69o47onC5NVdZMgcXt-0"/>
-        <mxCell id="UB69o47onC5NVdZMgcXt-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;@Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;OperationLog&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ modelId(): Integer&lt;br&gt;+ params(): String[]&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="UB69o47onC5NVdZMgcXt-1">
-          <mxGeometry x="40" y="40" width="190" height="80" as="geometry"/>
+        <mxCell id="UB69o47onC5NVdZMgcXt-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;@Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;OperationLog&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ modelId(): Integer&lt;br&gt;+ reqSpel(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ respSpel(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="UB69o47onC5NVdZMgcXt-1">
+          <mxGeometry x="40" y="40" width="190" height="110" as="geometry"/>
         </mxCell>
-        <mxCell id="UB69o47onC5NVdZMgcXt-7" value="1.拦截应用层调用聚合层的请求，在请求头中增加System_Flag，通过System_Flag判断是门户的还是运营平台的请求&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;2.数据库表中定义操作日志模板，比如：“管理员{admin}修改了用户{user}的操作权限，修改前{before}，修改后{after}”，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &amp;nbsp;注解OperationLog中params按照顺序设置SPEL表达式，比如：{&quot;admin&quot;:&quot;#{userInfo.name}&quot;}解析之后替换模板中的占位符&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="UB69o47onC5NVdZMgcXt-1">
-          <mxGeometry y="335" width="830" height="60" as="geometry"/>
+        <mxCell id="UB69o47onC5NVdZMgcXt-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;1.拦截应用层调用聚合层的请求，在请求头中增加System_Flag，通过System_Flag判断是门户的还是运营平台的请求&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;2.数据库表中定义操作日志模板，比如：“管理员{admin}修改了用户{user}的操作权限，修改前{before}，修改后{after}”，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;注解OperationLog中reqSpel和respSpel设置SPEL表达式，比如：{&quot;admin&quot;:&quot;#{userInfo.name}&quot;}解析之后替换模板中的占位符&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;3.若模板中的内容不能从请求参数或返回值中获取，则将模板内容放入RequestContextHolder中，在方法的执行过程中可读取并替换其中参数&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=15;" vertex="1" parent="UB69o47onC5NVdZMgcXt-1">
+          <mxGeometry y="325" width="760" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-15T02:40:19.468Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="EO3IAd6zJxS-AA51Jpx2" version="12.5.3" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-15T03:47:52.844Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="jXHBJvTJRghiE9oG98_b" version="12.5.3" type="github" pages="3">
   <diagram id="Pk6szY6X2AI3ksfUnbjT" name="类图">
     <mxGraphModel dx="2009" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -207,7 +207,7 @@
         <mxCell id="LLAB_MFIvd0FekO4jNla-17" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="LLAB_MFIvd0FekO4jNla-14" vertex="1">
           <mxGeometry x="50" y="40" width="80" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="LLAB_MFIvd0FekO4jNla-18" value="购买应用套餐后点击立即体验" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="LLAB_MFIvd0FekO4jNla-14" vertex="1">
+        <mxCell id="LLAB_MFIvd0FekO4jNla-18" value="购买应用套餐后点击使用" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="LLAB_MFIvd0FekO4jNla-14" vertex="1">
           <mxGeometry x="40" y="130" width="100" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="e6L2OlpCKADxSNwg0_lJ-5" value="部署成功，请使用" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="LLAB_MFIvd0FekO4jNla-14">

@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-07T01:27:15.889Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="qe8Uz4YSA7zigRQE1DLU" version="12.6.5" type="github">
+<mxfile host="www.draw.io" modified="2020-02-07T01:28:56.977Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36" etag="bIz54zbizeAqyWiaMbPg" version="12.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
           <mxGeometry width="36" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="9jMIC5pWbd9EheL5njLo-33" value="wish（愿望）" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" width="160" height="160" as="geometry">
+          <mxGeometry x="210" width="160" height="182" as="geometry">
             <mxRectangle x="260" y="80" width="160" height="26" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
@@ -130,6 +130,12 @@
           <mxGeometry y="130" width="160" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="9jMIC5pWbd9EheL5njLo-70" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="9jMIC5pWbd9EheL5njLo-69">
+          <mxGeometry width="36" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="9jMIC5pWbd9EheL5njLo-80" value="status" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=40;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9jMIC5pWbd9EheL5njLo-33">
+          <mxGeometry y="156" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="9jMIC5pWbd9EheL5njLo-81" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="9jMIC5pWbd9EheL5njLo-80">
           <mxGeometry width="36" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="9jMIC5pWbd9EheL5njLo-40" value="costs（代价）" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T03:53:04.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Eo6TekwaCKYqFfNoVMF8" version="21.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-10T03:55:12.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="xJvqlzbi9wSmp4_PUAd3" version="21.1.5" type="github" pages="2">
   <diagram name="场景数据流" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -327,9 +327,6 @@
         <mxCell id="k2yFPfLqvKbpY-Loo_CG-1" value="办公网环境" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="18" y="60" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TvVjpQereI2i6FcLQrpB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TvVjpQereI2i6FcLQrpB-1" target="TvVjpQereI2i6FcLQrpB-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="TvVjpQereI2i6FcLQrpB-1" value="数据仓库" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
           <mxGeometry x="774" y="110" width="80" height="50" as="geometry" />
         </mxCell>
@@ -458,11 +455,14 @@
             <mxPoint x="738" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TvVjpQereI2i6FcLQrpB-3" value="防火墙" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="698" y="105" width="80" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="TvVjpQereI2i6FcLQrpB-59" value="内网环境" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="748" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TvVjpQereI2i6FcLQrpB-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TvVjpQereI2i6FcLQrpB-23" target="TvVjpQereI2i6FcLQrpB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TvVjpQereI2i6FcLQrpB-3" value="防火墙" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="698" y="105" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

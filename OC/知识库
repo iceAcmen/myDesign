@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T10:40:25.785Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Jm_mh5Mq__71Scs-hJCC" version="21.1.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-04-25T06:39:42.626Z" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="VTtHPf0sYJHwS1sNKc3R" version="21.1.7" type="github" pages="4">
   <diagram name="ER图" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -464,7 +464,7 @@
           <mxGeometry x="30" y="110" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zfAyoq783duFkvk_xFLI-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="130" y="70" width="340" height="120" as="geometry" />
+          <mxGeometry x="130" y="70" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zfAyoq783duFkvk_xFLI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zfAyoq783duFkvk_xFLI-4">
           <mxGeometry relative="1" as="geometry">
@@ -481,7 +481,7 @@
           <mxGeometry x="250" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zfAyoq783duFkvk_xFLI-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="130" y="240" width="340" height="70" as="geometry" />
+          <mxGeometry x="130" y="240" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zfAyoq783duFkvk_xFLI-7" value="应用层网关" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="10" y="255" width="100" height="40" as="geometry" />
@@ -491,7 +491,7 @@
         </mxCell>
         <mxCell id="UHDoyKzeG_XecZTvZx9A-2" value="认证、鉴权、&lt;br&gt;查询用户、角色、权限树" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UHDoyKzeG_XecZTvZx9A-1">
           <mxGeometry x="-0.24" relative="1" as="geometry">
-            <mxPoint x="66" y="-20" as="offset" />
+            <mxPoint x="75" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UHDoyKzeG_XecZTvZx9A-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zfAyoq783duFkvk_xFLI-9" target="UHDoyKzeG_XecZTvZx9A-9">
@@ -507,19 +507,19 @@
           <mxGeometry x="230" y="252.5" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="zfAyoq783duFkvk_xFLI-10" value="cas-auth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="620" y="245" width="120" height="60" as="geometry" />
+          <mxGeometry x="638" y="245" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UHDoyKzeG_XecZTvZx9A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="UHDoyKzeG_XecZTvZx9A-3" target="zfAyoq783duFkvk_xFLI-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="140" as="sourcePoint" />
-            <mxPoint x="645" y="245" as="targetPoint" />
+            <mxPoint x="648" y="140" as="sourcePoint" />
+            <mxPoint x="663" y="245" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UHDoyKzeG_XecZTvZx9A-3" value="管理员维护" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="90" width="30" height="60" as="geometry" />
+          <mxGeometry x="698" y="90" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UHDoyKzeG_XecZTvZx9A-6" value="用户管理&lt;br&gt;用户授权角色&lt;br&gt;菜单管理&lt;br&gt;资源绑定菜单&lt;br&gt;角色绑定菜单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="80" width="90" height="100" as="geometry" />
+          <mxGeometry x="568" y="80" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="UHDoyKzeG_XecZTvZx9A-7" value="应用层" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="10" y="380" width="100" height="40" as="geometry" />

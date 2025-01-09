@@ -200,7 +200,7 @@
         <mxCell id="5twSuYtWL3Y_KQBoELRt-112" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:8pt; color:#7f41fb; background-color:transparent;&quot;&gt;ECIF系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5twSuYtWL3Y_KQBoELRt-118" vertex="1">
           <mxGeometry x="293" y="70" width="96" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="5twSuYtWL3Y_KQBoELRt-113" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:8pt; color:#7f41fb; background-color:transparent;&quot;&gt;信用卡系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5twSuYtWL3Y_KQBoELRt-118" vertex="1">
+        <mxCell id="5twSuYtWL3Y_KQBoELRt-113" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:8pt; color:#7f41fb; background-color:transparent;&quot;&gt;信用卡前置系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5twSuYtWL3Y_KQBoELRt-118" vertex="1">
           <mxGeometry x="428" y="70" width="96" height="34" as="geometry" />
         </mxCell>
         <mxCell id="5twSuYtWL3Y_KQBoELRt-114" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:8pt; color:#7f41fb; background-color:transparent;&quot;&gt;电子渠道&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5twSuYtWL3Y_KQBoELRt-118" vertex="1">

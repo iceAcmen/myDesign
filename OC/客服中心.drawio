@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36" version="25.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36" version="26.0.4">
   <diagram name="第 1 页" id="z1AS-CnwqjCaLJEhdLgM">
     <mxGraphModel dx="996" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
             <mxPoint x="-4" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EVX5sfQxtI5rWK1POcGl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="5twSuYtWL3Y_KQBoELRt-1" target="5twSuYtWL3Y_KQBoELRt-48">
+        <mxCell id="EVX5sfQxtI5rWK1POcGl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="5twSuYtWL3Y_KQBoELRt-1" target="5twSuYtWL3Y_KQBoELRt-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="770" y="352.5" as="targetPoint" />
           </mxGeometry>
@@ -40,7 +40,7 @@
             <mxPoint x="740" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EVX5sfQxtI5rWK1POcGl-7" value="对象存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5twSuYtWL3Y_KQBoELRt-41">
+        <mxCell id="EVX5sfQxtI5rWK1POcGl-7" value="对象存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5twSuYtWL3Y_KQBoELRt-41" vertex="1" connectable="0">
           <mxGeometry x="-0.3904" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -183,13 +183,13 @@
           <mxGeometry x="32.5" y="260" width="25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5twSuYtWL3Y_KQBoELRt-118" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="165" y="500" width="543" height="200" as="geometry" />
+          <mxGeometry x="102" y="500" width="670" height="200" as="geometry" />
         </mxCell>
         <mxCell id="5twSuYtWL3Y_KQBoELRt-108" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=center;glass=0;shadow=0;" parent="5twSuYtWL3Y_KQBoELRt-118" vertex="1">
-          <mxGeometry width="543" height="180" as="geometry" />
+          <mxGeometry width="670" height="180" as="geometry" />
         </mxCell>
         <mxCell id="5twSuYtWL3Y_KQBoELRt-109" value="海芯ESB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="5twSuYtWL3Y_KQBoELRt-118" vertex="1">
-          <mxGeometry x="15" y="10" width="510" height="40" as="geometry" />
+          <mxGeometry x="15" y="10" width="645" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5twSuYtWL3Y_KQBoELRt-110" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:8pt; color:#7f41fb; background-color:transparent;&quot;&gt;核心系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5twSuYtWL3Y_KQBoELRt-118" vertex="1">
           <mxGeometry x="15" y="70" width="96" height="34" as="geometry" />
@@ -214,6 +214,9 @@
         </mxCell>
         <mxCell id="5twSuYtWL3Y_KQBoELRt-117" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:8pt; color:#7f41fb; background-color:transparent;&quot;&gt;统一身份认证&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="5twSuYtWL3Y_KQBoELRt-118" vertex="1">
           <mxGeometry x="428" y="130" width="96" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="eXp-EpJMZknZPVPf-O0c-1" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:8pt; color:#7f41fb; background-color:transparent;&quot;&gt;ATM监控平台&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5twSuYtWL3Y_KQBoELRt-118">
+          <mxGeometry x="565" y="70" width="96" height="34" as="geometry" />
         </mxCell>
         <mxCell id="5twSuYtWL3Y_KQBoELRt-46" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="55" width="120" height="195" as="geometry" />

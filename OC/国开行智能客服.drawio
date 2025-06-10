@@ -458,7 +458,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-73" value="&lt;b&gt;全局指令处理&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-55">
-          <mxGeometry x="10" y="583" width="140" height="60" as="geometry" />
+          <mxGeometry x="10" y="507" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-66" value="&lt;b&gt;判断&lt;/b&gt;&lt;div style=&quot;font-size:10px;&quot;&gt;1. 继续对话引导&lt;br&gt;2. 返回IVR节点&lt;br&gt;3. 全局指令&lt;/div&gt;" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;perimeter=rhombusPerimeter;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-55">
           <mxGeometry x="171" y="420" width="140" height="100" as="geometry" />
@@ -511,7 +511,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-137" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;返回上级/下级/重听&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-55">
-          <mxGeometry x="20" y="686" width="120" height="30" as="geometry" />
+          <mxGeometry x="20" y="610" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-56" value="平安语音导航机器人" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="494" y="40" width="180" height="920" as="geometry" />
@@ -649,7 +649,7 @@
           <mxGeometry x="-170" y="40" width="157" height="921" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-135" value="转接人工坐席队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-132">
-          <mxGeometry x="40" y="582" width="60" height="60" as="geometry" />
+          <mxGeometry x="40" y="506" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-141" value="电话进线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-132">
           <mxGeometry x="19" y="55" width="120" height="60" as="geometry" />

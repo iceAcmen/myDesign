@@ -466,11 +466,21 @@
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeWidth=2;strokeColor=#FFA500;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hq4oN2k3iXWSaDLyB1I9-55" source="hq4oN2k3iXWSaDLyB1I9-66" target="hq4oN2k3iXWSaDLyB1I9-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-124" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hq4oN2k3iXWSaDLyB1I9-89">
+          <mxGeometry x="-0.4853" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-67" value="继续对话引导意图澄清" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-55">
           <mxGeometry x="330" y="583" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="hq4oN2k3iXWSaDLyB1I9-55" source="hq4oN2k3iXWSaDLyB1I9-66" target="hq4oN2k3iXWSaDLyB1I9-67">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-125" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hq4oN2k3iXWSaDLyB1I9-81">
+          <mxGeometry x="-0.5545" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-62" value="调用ASR&lt;div&gt;将用户说话内容转文本&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;shape=label;fixedSize=1;rounded=1;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-55">
           <mxGeometry x="172" y="272" width="140" height="64" as="geometry" />
@@ -499,7 +509,7 @@
           <mxGeometry x="20" y="350" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-57" value="ASR" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="700" y="40" width="120" height="1260" as="geometry" />
+          <mxGeometry x="699" y="40" width="120" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-64" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;用户说话内容&lt;/span&gt;&lt;/div&gt;音频流转文本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;dashed=1;dashPattern=5 5;strokeColor=#FF0000;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-57">
           <mxGeometry x="20" y="257" width="80" height="60" as="geometry" />

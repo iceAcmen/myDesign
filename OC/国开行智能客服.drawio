@@ -505,7 +505,7 @@
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-56" value="平安语音导航机器人" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="500" y="40" width="180" height="1260" as="geometry" />
         </mxCell>
-        <mxCell id="hq4oN2k3iXWSaDLyB1I9-65" value="请求语音导航机器人" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontSize=12;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-56">
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-65" value="意图识别&lt;div&gt;对话流程决策&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontSize=12;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-56">
           <mxGeometry x="20" y="350" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-57" value="百度ASR/TTS" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">

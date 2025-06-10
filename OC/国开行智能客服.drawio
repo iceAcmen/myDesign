@@ -414,7 +414,7 @@
           <mxGeometry x="1250" y="1030" width="60" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-54" value="用户终端" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="39" width="200" height="921" as="geometry" />
+          <mxGeometry x="-380" y="39" width="200" height="921" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-59" value="用户拨打电话" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-54">
           <mxGeometry x="70" y="56" width="60" height="60" as="geometry" />
@@ -449,7 +449,15 @@
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeWidth=2;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="hq4oN2k3iXWSaDLyB1I9-55" source="hq4oN2k3iXWSaDLyB1I9-71" target="hq4oN2k3iXWSaDLyB1I9-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hq4oN2k3iXWSaDLyB1I9-73" value="&lt;b&gt;全局指令处理&lt;/b&gt;&lt;div style=&quot;font-size:10px;&quot;&gt;返回上级/下级/重听&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-55">
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hq4oN2k3iXWSaDLyB1I9-55" source="hq4oN2k3iXWSaDLyB1I9-73" target="hq4oN2k3iXWSaDLyB1I9-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-139" value="其他指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hq4oN2k3iXWSaDLyB1I9-138">
+          <mxGeometry x="-0.3488" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-73" value="&lt;b&gt;全局指令处理&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-55">
           <mxGeometry x="10" y="583" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-66" value="&lt;b&gt;判断&lt;/b&gt;&lt;div style=&quot;font-size:10px;&quot;&gt;1. 继续对话引导&lt;br&gt;2. 返回IVR节点&lt;br&gt;3. 全局指令&lt;/div&gt;" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;perimeter=rhombusPerimeter;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-55">
@@ -501,6 +509,9 @@
           <mxGeometry x="-0.587" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-137" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;返回上级/下级/重听&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-55">
+          <mxGeometry x="20" y="686" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-56" value="平安语音导航机器人" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="500" y="40" width="180" height="920" as="geometry" />
@@ -637,6 +648,20 @@
             </Array>
             <mxPoint x="-220" y="1175" as="sourcePoint" />
             <mxPoint x="-190" y="1175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-132" value="华为基础平台/坐席系统" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d0cee2;strokeColor=#56517e;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="40" width="157" height="921" as="geometry" />
+        </mxCell>
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-135" value="转接人工坐席队列" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-132">
+          <mxGeometry x="40" y="582" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hq4oN2k3iXWSaDLyB1I9-73" target="hq4oN2k3iXWSaDLyB1I9-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hq4oN2k3iXWSaDLyB1I9-140" value="转人工" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hq4oN2k3iXWSaDLyB1I9-136">
+          <mxGeometry x="-0.0882" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

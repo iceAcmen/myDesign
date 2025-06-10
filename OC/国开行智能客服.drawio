@@ -406,7 +406,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d34fHybTEx5vsxFx_n3k" name="智能语音导航集成方案">
-    <mxGraphModel dx="2033" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2312" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -514,13 +514,13 @@
           <mxGeometry x="20" y="686" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-56" value="平安语音导航机器人" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="500" y="40" width="180" height="920" as="geometry" />
+          <mxGeometry x="492" y="40" width="180" height="920" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-65" value="意图识别&lt;div&gt;对话流程决策&lt;/div&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#4CAF50;strokeColor=none;fontSize=12;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-56">
           <mxGeometry x="20" y="350" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-57" value="百度ASR/TTS" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="699" y="40" width="120" height="920" as="geometry" />
+          <mxGeometry x="686" y="40" width="120" height="920" as="geometry" />
         </mxCell>
         <mxCell id="hq4oN2k3iXWSaDLyB1I9-64" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;用户说话内容&lt;/span&gt;&lt;/div&gt;音频流转文本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;dashed=1;dashPattern=5 5;strokeColor=#FF0000;" vertex="1" parent="hq4oN2k3iXWSaDLyB1I9-57">
           <mxGeometry x="20" y="257" width="80" height="60" as="geometry" />

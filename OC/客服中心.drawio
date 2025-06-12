@@ -305,7 +305,7 @@
             <mxPoint y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0hduY251xro4gR5nQEdV-45" value="工单及系统人员配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9ECEF;" vertex="1" parent="1">
+        <mxCell id="0hduY251xro4gR5nQEdV-45" value="工单及系统人员配置及组织架构" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9ECEF;" vertex="1" parent="1">
           <mxGeometry x="480" y="350" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0hduY251xro4gR5nQEdV-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;endFill=1;align=left;fontSize=12;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;" edge="1" parent="1">
